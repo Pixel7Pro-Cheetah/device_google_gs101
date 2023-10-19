@@ -1127,3 +1127,7 @@ include hardware/google/pixel/HardwareInfo/HardwareInfo.mk
 
 # Touch service
 include device/google/gs-common/touch/twoshay/aidl_gs101.mk
+
+# Memory
+PRODUCT_PRODUCT_PROPERTIES += persist.device_config.mglru_native.lru_gen_config=all
+
